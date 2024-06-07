@@ -33,7 +33,7 @@
 
 ### 构建管理
 
-修改https://github.com/felixonmars/archlinux-futils的工作流，入口点见https://github.com/felixonmars/archlinux-futils/blob/master/archriscv-staging/riscvu
+修改肥猫的[工作流脚本](https://github.com/felixonmars/archlinux-futils)，入口点为[riscvu](https://github.com/felixonmars/archlinux-futils/blob/master/archriscv-staging/riscvu)。
 
 `PKGBUILD`和补丁包使用patch文件形式管理
 
@@ -63,5 +63,4 @@ NAS？NFS
 2. 如何获取需要的更新以及patch、如何获知包过时（从上游拉）
 3. 构建和分发**工作流**的确定，包签名等置信
 4. 文档同步、工作协同
-
 
